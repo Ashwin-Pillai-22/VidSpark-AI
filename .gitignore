@@ -1,0 +1,52 @@
+# --- Operating System Files ---
+*.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+auth.json
+
+# --- Common IDEs and Editors ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# --- Logs and Diagnostics ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Common Dependency Directories ---
+node_modules/
+bower_components/
+jspm_packages/
+.pnp
+.pnp.js
+
+# --- Common Build Outputs ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.exe
+*.dll
+*.so
+*.dylib
